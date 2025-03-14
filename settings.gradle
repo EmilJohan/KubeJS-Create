@@ -2,8 +2,11 @@ pluginManagement {
 	repositories {
 		maven { url "https://maven.creeperhost.net/" }
 		maven { url "https://maven.shedaniel.me/" }
+		maven {
+			url "https://maven.neoforged.net/releases"
+		}
 		gradlePluginPortal()
 	}
 }
 
-rootProject.name = 'KubeJS-Create-1.20.1-Forge'
+rootProject.name = 'KubeJS-Create-1.21.1-NeoForge'

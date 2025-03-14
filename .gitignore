@@ -25,3 +25,7 @@ run
 
 # night config dependency override my beloved
 !fabric/run/config/fabric_loader_dependencies.json
+
+# nix stuff
+/.direnv
+/.envrc

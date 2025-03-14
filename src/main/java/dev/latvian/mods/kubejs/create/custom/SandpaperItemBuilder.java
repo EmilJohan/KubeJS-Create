@@ -12,7 +12,7 @@ import static com.simibubi.create.AllItems.SAND_PAPER;
 public class SandpaperItemBuilder extends ItemBuilder {
 	public SandpaperItemBuilder(ResourceLocation i) {
 		super(i);
-		tag(Create.asResource("sandpaper"));
+		tag(new ResourceLocation[]{Create.asResource("sandpaper")});
 	}
 
 	@Override
